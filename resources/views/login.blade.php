@@ -69,6 +69,7 @@
                     {{ csrf_field() }}
                     <div class="form-group form-group-default" id="emailGroup">
                         <label>{{ __('voyager::generic.email') }}</label>
+                        <p>test</p>
                         <div class="controls">
                             <input type="text" name="email" id="email" value="{{ old('email') }}" placeholder="{{ __('voyager::generic.email') }}" class="form-control" required>
                          </div>
